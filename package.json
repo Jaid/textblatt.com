@@ -28,7 +28,7 @@
     "acorn": "^7.1.0",
     "ajv": "^6.10.2",
     "babel-jest": "^24.9.0",
-    "babel-preset-jaid": "^7.0.0",
+    "babel-preset-jaid": "^7.1.0",
     "caniuse-lite": "^1.0.30001016",
     "eslint": "^6.7.2",
     "eslint-config-jaid-react": "^1.41.0",
@@ -37,7 +37,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "rimraf": "^3.0.0",
-    "webpack-config-jaid": "^7.1.0"
+    "webpack-config-jaid": "^7.2.0"
   },
   "scripts": {
     "clean": "rimraf dist/ test/**/dist/",
