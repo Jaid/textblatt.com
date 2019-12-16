@@ -1,0 +1,24 @@
+:global {
+  .tippy-tooltip.entity-theme {
+    border    : 1px solid white;
+    box-shadow: 0 0 10px black;
+  }
+
+  .tippy-tooltip.entity-theme {
+    background   : black;
+    border-radius: 0;
+    padding      : 0;
+    font-family  : Ubuntu,
+      sans-serif;
+  }
+
+}
+
+.container {
+  text-align: left;
+  font-size : 16px;
+
+  &:not(.noPadding) {
+    padding: 0.4rem 0.8rem;
+  }
+}
