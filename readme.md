@@ -1,7 +1,7 @@
-# Jaidbot Overlay
+# Letter Bar
 
 
-Web client for Jaidbot.
+Simple webapp with a text input and live character count.
 
 
 
