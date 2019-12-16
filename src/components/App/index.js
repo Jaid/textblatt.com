@@ -3,11 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import {connect} from "react-redux"
 
-import ChatPage from "components/ChatPage"
-import StartupLogo from "components/StartupLogo"
-
-import query from "src/query"
-
 import css from "./style.scss"
 
 @connect(state => ({
@@ -25,7 +20,7 @@ export default class extends React.Component {
   }
 
   render() {
-    const content = query.chat === undefined ? <StartupLogo/> : <ChatPage/>
+    const content = "hello"
     return <div className={classnames(css.container, this.props.className)}>
       {content}
     </div>

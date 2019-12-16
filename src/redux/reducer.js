@@ -1,8 +1,6 @@
 import immer from "immer"
 import {combineReducers} from "redux"
 
-import {socketMiddleware} from "lib/socketMiddleware"
-
 const mainReducer = (state, action) => {
   if (action.type === "@@socket/received/hey") {
     console.log("hey received")
@@ -20,5 +18,4 @@ const mainReducer = (state, action) => {
 
 export default combineReducers({
   main: mainReducer,
-  socket: socketMiddleware.reducer,
 })
