@@ -5,9 +5,6 @@ import {connect} from "react-redux"
 
 import css from "./style.scss"
 
-@connect(state => ({
-  loginInfo: state.login,
-}))
 export default class extends React.Component {
 
   static propTypes = {
