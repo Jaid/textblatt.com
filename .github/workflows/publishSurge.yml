@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build:prod
       - name: Set domain
-        run: domain=$(package-field-cli domain)
+        run: echo "::set-env name=domain::$(package-field-cli domain)"
       - name: Publish to Surge
         if: env.domain
         run: surge --project dist/package/production --domain $domain
