@@ -1,13 +1,27 @@
 import classnames from "classnames"
 import PropTypes from "prop-types"
 import React from "react"
-
-import Bar from "components/Bar"
-import Form from "components/Form"
+import {connect} from "react-redux"
+import zahl from "zahl"
 
 import css from "./style.scss"
 
-export default class extends React.Component {
+/**
+  * @typedef {{
+  *   className: *,
+  *   count: number
+  * }} Props
+  */
+
+@connect(({form}) => ({
+  count: form?.controls?.values?.text?.length || 0,
+}))
+
+/**
+  * @class
+  * @extends {React.Component<Props>}
+  */
+export default class Bar extends React.Component {
 
   static propTypes = {
     className: PropTypes.oneOfType([
@@ -16,12 +30,13 @@ export default class extends React.Component {
       PropTypes.arrayOf(PropTypes.string),
       PropTypes.arrayOf(PropTypes.object),
     ]),
+    count: PropTypes.number,
   }
 
   render() {
+    const countString = zahl(this.props.count, "character")
     return <div className={classnames(css.container, this.props.className)}>
-      <Form/>
-      <Bar/>
+      {countString}
     </div>
   }
 

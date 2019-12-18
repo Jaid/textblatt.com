@@ -21,7 +21,8 @@
     "redux": "^4.0.4",
     "redux-action": "^1.2.2",
     "redux-form": "^8.2.6",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "zahl": "^2.0.3"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^16.11.0",
