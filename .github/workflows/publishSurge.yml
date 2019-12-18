@@ -23,7 +23,7 @@ jobs:
       - name: test
         run: env
       - name: Publish to Surge
-        if: env.domain && secrets.surgeLogin && secrets.surgeToken
+        if: env.domain
         env:
           SURGE_LOGIN: ${{ secrets.surgeLogin }}
           SURGE_TOKEN: ${{ secrets.surgeToken }}
