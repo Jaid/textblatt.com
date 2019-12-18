@@ -21,5 +21,8 @@ jobs:
       - name: Set domain
         run: echo "::set-env name=domain::$(package-field-cli domain)"
       - name: Publish to Surge
-        if: env.domain
+        if: env.domain && secrets.surgeLogin && secrets.surgeToken
+        env:
+          SURGE_LOGIN: ${{ secrets.surgeLogin }}
+          SURGE_TOKEN: ${{ secrets.surgeToken }}
         run: surge --project dist/package/production --domain $domain
