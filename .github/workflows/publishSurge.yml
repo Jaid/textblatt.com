@@ -22,9 +22,16 @@ jobs:
         run: echo "::set-env name=domain::$(package-field-cli domain)"
       - name: test
         run: env
-      # - name: Publish to Surge
-      #   if: env.domain && secrets.surgeLogin && secrets.surgeToken
-      #   env:
-      #     SURGE_LOGIN: ${{ secrets.surgeLogin }}
-      #     SURGE_TOKEN: ${{ secrets.surgeToken }}
-      #   run: surge --project dist/package/production --domain $domain
+      - name: Publish to Surge
+        if: env.domain && secrets.surgeLogin && secrets.surgeToken
+        env:
+          SURGE_LOGIN: ${{ secrets.surgeLogin }}
+          SURGE_TOKEN: ${{ secrets.surgeToken }}
+        run: |
+          if [[ -n $SURGE_LOGIN ]] && [[ -n $SURGE_TOKEN ]]
+          then
+          surge --project dist/package/production --domain $domain
+          else
+          echo Secrets not set
+          exit 1
+          fi
