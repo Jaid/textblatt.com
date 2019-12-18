@@ -34,6 +34,7 @@
     "eslint": "^6.7.2",
     "eslint-config-jaid-react": "^1.41.0",
     "jest": "^24.9.0",
+    "log-watcher-webpack-plugin": "^1.0.1",
     "react-hot-loader": "^4.12.18",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",

@@ -1,9 +1,10 @@
+import p from "log-watcher-webpack-plugin"
 import configure from "webpack-config-jaid"
-
 /**
  * @type {import("webpack").Configuration}
  */
 const extra = {
+  plugins: [new p],
   devServer: {
     noInfo: false,
     stats: "verbose",
