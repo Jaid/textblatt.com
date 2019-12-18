@@ -1,0 +1,25 @@
+name: Publish to Surge
+on:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: actions/checkout
+        uses: actions/checkout@v1.2.0
+      - name: actions/setup-node
+        uses: actions/setup-node@v1.3.0
+        with:
+          node-version: "12.13.1"
+      - name: npm install
+        uses: jaid/action-npm-install@master
+      - name: Install globals
+        run: npm install --global surge package-field-cli
+      - name: Build
+        run: npm run build:prod
+      - name: Set domain
+        run: domain=$(package-field-cli domain)
+      - name: Publish to Surge
+        if: env.domain
+        run: surge --project dist/package/production --domain $domain
