@@ -20,6 +20,8 @@ jobs:
         run: npm run build:prod
       - name: Set domain
         run: echo "::set-env name=domain::$(package-field-cli domain)"
+      - name: test
+        run: env
       - name: Publish to Surge
         if: env.domain && secrets.surgeLogin && secrets.surgeToken
         env:
