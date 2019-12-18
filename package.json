@@ -4,7 +4,7 @@
   "domain": "letter.bar",
   "description": "Simple webapp with a text input and live character count.",
   "webpackConfigJaid": "webapp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
     "@babel/runtime": "^7.7.6",
