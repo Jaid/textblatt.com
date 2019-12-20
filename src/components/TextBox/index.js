@@ -26,12 +26,21 @@ export default class extends React.Component {
     input: PropTypes.object.isRequired,
   }
 
+  constructor(props) {
+    super(props)
+    this.ref = React.createRef()
+  }
+
+  componentDidMount() {
+    this.ref.current.focus()
+  }
+
   handleChange(event) {
     this.props.input.onChange(event)
   }
 
   render() {
-    return <textarea className={css.container} onChange={this.handleChange.bind(this)}/>
+    return <textarea ref={this.ref} className={css.container} onChange={this.handleChange.bind(this)}/>
   }
 
 }
