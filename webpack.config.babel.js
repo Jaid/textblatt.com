@@ -1,5 +1,7 @@
 import configure from "webpack-config-jaid"
 
 export default configure({
-  configOutput: true,
+  googleAnalyticsTrackingId: "UA-154709538-2",
+  twitterAuthorHandle: "jaidchen",
+  themeColor: "#00baff",
 })
