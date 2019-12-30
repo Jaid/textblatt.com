@@ -10,6 +10,8 @@ import HotApp from "components/HotApp"
 
 import reducer from "./redux/reducer"
 
+require("offline-plugin/runtime").install()
+
 const logger = createLogger({
   level: "info",
   collapsed: true,
