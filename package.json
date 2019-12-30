@@ -44,7 +44,7 @@
   },
   "scripts": {
     "clean": "rimraf dist/ test/**/dist/",
-    "start": "webpackPort=1212 browserSync=1 NODE_ENV=development webpack-dev-server",
+    "start": "webpackPort=1212 browserSync=5522 NODE_ENV=development webpack-dev-server",
     "build:prod": "NODE_ENV=production webpack",
     "build:dev": "NODE_ENV=development webpack",
     "release": "npm run clean && npm test && git tag v$npm_package_version && git push --tags && opn https://github.com/$npm_package_author_name/$(basename $PWD)/releases/new?tag=v$npm_package_version",
