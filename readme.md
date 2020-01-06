@@ -1,15 +1,40 @@
 # Letter Bar
 
 
-Simple webapp with a text input and live character count.
+<a href="https://actions-badge.atrox.dev/Jaid/letter.bar/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fletter.bar%2Fbadge" alt="Build status"/></a> <a href="https://raw.githubusercontent.com/Jaid/letter.bar/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/letter.bar?style=flat-square" alt="License"/></a>  
+<a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/commits-since/Jaid/letter.bar/v1.3.6?style=flat-square&logo=github" alt="Commits since v1.3.6"/></a> <a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/last-commit/Jaid/letter.bar?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/letter.bar/issues"><img src="https://img.shields.io/github/issues/Jaid/letter.bar?style=flat-square&logo=github" alt="Issues"/></a>  
 
-<a href="https://raw.githubusercontent.com/Jaid/letter.bar/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/letter.bar?style=flat-square&color=success" alt="License"/></a>  
-<a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/commits-since/Jaid/letter.bar/v1.3.6?style=flat-square&logo=github&color=success" alt="Commits since v1.3.6"/></a> <a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/last-commit/Jaid/letter.bar?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/letter.bar/issues"><img src="https://img.shields.io/github/issues/Jaid/letter.bar?style=flat-square&logo=github&color=red" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/letter.bar"><img src="https://img.shields.io/npm/v/letter.bar?style=flat-square&logo=npm&label=latest%20version&color=success" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/letter.bar/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/letter.bar?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/letter.bar"><img src="https://img.shields.io/npm/dm/letter.bar?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
-
+**Simple webapp with a text input and live character count.**
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/letter.bar.git
+cd letter.bar
+npm install
+```
 
 
 ## License
