@@ -1,4 +1,5 @@
 import "modern-normalize"
+import "lib/analytics"
 
 import classnames from "classnames"
 import PropTypes from "prop-types"
