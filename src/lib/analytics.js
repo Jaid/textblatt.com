@@ -14,4 +14,4 @@ if (GOOGLE_ANALYTICS_TRACKING_ID) {
   // })
 }
 
-return ReactGoogleAnalytics
+export default ReactGoogleAnalytics
