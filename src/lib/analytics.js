@@ -6,6 +6,8 @@ if (GOOGLE_ANALYTICS_TRACKING_ID) {
       siteSpeedSampleRate: 100,
     },
     gaAddress: "https://example.com/ga.js",
+    debug: true,
+    testMode: true,
   })
   ReactGoogleAnalytics.pageview(window.location.pathname + window.location.search)
   // history.listen(location => {
