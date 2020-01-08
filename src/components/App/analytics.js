@@ -5,11 +5,9 @@ import history from "./history"
 if (GOOGLE_ANALYTICS_TRACKING_ID) {
   ReactGoogleAnalytics.initialize(GOOGLE_ANALYTICS_TRACKING_ID, {
     gaOptions: {
-      siteSpeedSampleRate: 100,
+      siteSpeedSampleRate: 20,
     },
-    gaAddress: "https://pastebin.com/raw/7Spbcpuw",
-    debug: true,
-    testMode: true,
+    gaAddress: "https://ga.jaid.codes/script/index.js",
   })
   ReactGoogleAnalytics.pageview(window.location.pathname + window.location.search)
   history.listen(location => {
