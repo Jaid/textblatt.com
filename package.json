@@ -55,5 +55,9 @@
     "release": "npm run clean && npm test && git tag v$npm_package_version && git push --tags && opn https://github.com/$npm_package_author_name/$(basename $PWD)/releases/new?tag=v$npm_package_version",
     "prepareActionJest": "npm run build:prod"
   },
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/letter.bar"
+  }
 }
