@@ -1,11 +1,10 @@
 # Letter Bar
 
 
-<a href="https://raw.githubusercontent.com/Jaid/letter.bar/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/letter.bar?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/letter.bar/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fletter.bar%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/commits-since/Jaid/letter.bar/v1.4.5?style=flat-square&logo=github" alt="Commits since v1.4.5"/></a> <a href="https://github.com/Jaid/letter.bar/commits"><img src="https://img.shields.io/github/last-commit/Jaid/letter.bar?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/letter.bar/issues"><img src="https://img.shields.io/github/issues/Jaid/letter.bar?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://raw.githubusercontent.com/jaid/letter.bar/master/license.txt"><img src="https://img.shields.io/github/license/jaid/letter.bar?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor letter.bar"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/letter.bar/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fletter.bar%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/letter.bar/commits"><img src="https://img.shields.io/github/commits-since/jaid/letter.bar/v1.4.5?style=flat-square&logo=github" alt="Commits since v1.4.5"/></a> <a href="https://github.com/jaid/letter.bar/commits"><img src="https://img.shields.io/github/last-commit/jaid/letter.bar?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/letter.bar/issues"><img src="https://img.shields.io/github/issues/jaid/letter.bar?style=flat-square&logo=github" alt="Issues"/></a>  
 
 **Simple webapp with a text input and live character count.**
-
 
 
 
@@ -34,7 +33,7 @@
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/letter.bar.git
+git clone git@github.com:jaid/letter.bar.git
 cd letter.bar
 npm install
 ```
