@@ -23,12 +23,7 @@ import css from "./style.scss"
 export default class extends React.Component {
 
   static propTypes = {
-    className: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.object,
-      PropTypes.arrayOf(PropTypes.string),
-      PropTypes.arrayOf(PropTypes.object),
-    ]),
+    className: PropTypes.any,
     count: PropTypes.number,
   }
 
