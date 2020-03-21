@@ -4,10 +4,9 @@ import React from "react"
 import css from "./style.scss"
 
 /**
-  * @typedef {{
-  *   className: *,
-  *   input: *,
-  * }} Props
+  * @typedef {Object} Props
+  * @prop {*} className
+  * @prop {Object} input
   */
 
 /**
@@ -17,12 +16,7 @@ import css from "./style.scss"
 export default class extends React.Component {
 
   static propTypes = {
-    className: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.object,
-      PropTypes.arrayOf(PropTypes.string),
-      PropTypes.arrayOf(PropTypes.object),
-    ]),
+    className: PropTypes.any,
     input: PropTypes.object.isRequired,
   }
 

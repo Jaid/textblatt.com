@@ -7,10 +7,9 @@ import zahl from "zahl"
 import css from "./style.scss"
 
 /**
-  * @typedef {{
-  *   className: *,
-  *   count: number
-  * }} Props
+  * @typedef {Object} Props
+  * @prop {*} className
+  * @prop {number} count
   */
 
 @connect(({form}) => ({

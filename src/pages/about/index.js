@@ -5,14 +5,10 @@ import DocumentTitle from "react-document-title"
 import css from "./style.scss"
 
 /**
-  * @typedef {{
-  *   match: {
-  *    isExact: boolean
-  *    path: string
-  *    url: string
-  *    params: object.<string, string>
-  *  },
-  * }} Props
+  * @typedef {Object} Props
+  * @prop {*} className
+  * @prop {Object} input
+  * @prop {Object} input.abc
   */
 
 /**

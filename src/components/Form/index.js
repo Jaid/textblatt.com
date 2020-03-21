@@ -7,9 +7,8 @@ import TextBox from "components/TextBox"
 import css from "./style.scss"
 
 /**
-  * @typedef {{
-  *   className: *,
-  * }} Props
+  * @typedef {Object} Props
+  * @prop {*} className
   */
 
 @reduxForm({
@@ -23,12 +22,7 @@ import css from "./style.scss"
 export default class extends React.Component {
 
   static propTypes = {
-    className: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.object,
-      PropTypes.arrayOf(PropTypes.string),
-      PropTypes.arrayOf(PropTypes.object),
-    ]),
+    className: PropTypes.any,
   }
 
   render() {

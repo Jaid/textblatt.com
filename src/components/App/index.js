@@ -12,6 +12,10 @@ import history from "./history"
 import routes from "./routes.yml"
 import css from "./style.scss"
 
+/**
+  * @class
+  * @extends {React.Component<Props>}
+  */
 export default class App extends React.Component {
 
   static getRoutes() {
@@ -24,18 +28,9 @@ export default class App extends React.Component {
     return routeBlocks
   }
 
-  static propTypes = {
-    className: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.object,
-      PropTypes.arrayOf(PropTypes.string),
-      PropTypes.arrayOf(PropTypes.object),
-    ]),
-  }
-
   render() {
     const routeElements = App.getRoutes()
-    return <div className={classnames(css.container, this.props.className)}>
+    return <div className={classnames(css.container)}>
       <Router history={history}>
         <ReactRouterScrollTop>
           <Switch>
