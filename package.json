@@ -60,5 +60,7 @@
     "type": "git",
     "url": "https://github.com/jaid/letter.bar"
   },
-  "private": true
+  "private": true,
+  "homepage": "https://letter.bar",
+  "keywords": []
 }
