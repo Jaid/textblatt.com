@@ -61,5 +61,17 @@
   },
   "private": true,
   "homepage": "https://letter.bar",
-  "keywords": []
+  "keywords": [
+    "boilerplate",
+    "page",
+    "project-template",
+    "react",
+    "react-dom",
+    "single-page-app",
+    "spa",
+    "template",
+    "tool",
+    "webapp",
+    "website"
+  ]
 }
