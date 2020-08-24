@@ -9,7 +9,6 @@
     "emitDeclarationOnly": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "jsx": "react",
     "paths": {
       "lib/*": [
         "src/lib/*"
