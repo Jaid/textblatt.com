@@ -35,7 +35,7 @@
     "babel-jest": "^26.3.0",
     "babel-preset-jaid": "^8.1.1",
     "browserslist-config-jaid-web": "^2.3.1",
-    "caniuse-lite": "^1.0.30001118",
+    "caniuse-lite": "^1.0.30001120",
     "eslint": "^7.7.0",
     "eslint-config-jaid-react": "^1.49.0",
     "jest": "^26.4.2",
