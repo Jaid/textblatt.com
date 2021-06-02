@@ -1,15 +1,22 @@
-# Letter Bar
+# Textblatt
 
 
-<a href="https://raw.githubusercontent.com/jaid/letter.bar/master/license.txt"><img src="https://img.shields.io/github/license/jaid/letter.bar?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor letter.bar"/></a>  
-<a href="https://actions-badge.atrox.dev/jaid/letter.bar/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fletter.bar%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/letter.bar/commits"><img src="https://img.shields.io/github/commits-since/jaid/letter.bar/v1.5.1?style=flat-square&logo=github" alt="Commits since v1.5.1"/></a> <a href="https://github.com/jaid/letter.bar/commits"><img src="https://img.shields.io/github/last-commit/jaid/letter.bar?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/letter.bar/issues"><img src="https://img.shields.io/github/issues/jaid/letter.bar?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://raw.githubusercontent.com/jaid/textblatt.com/master/license.txt"><img src="https://img.shields.io/github/license/jaid/textblatt.com?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor textblatt.com"/></a>  
+<a href="https://actions-badge.atrox.dev/jaid/textblatt.com/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ftextblatt.com%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/textblatt.com/commits"><img src="https://img.shields.io/github/commits-since/jaid/textblatt.com/v1.5.1?style=flat-square&logo=github" alt="Commits since v1.5.1"/></a> <a href="https://github.com/jaid/textblatt.com/commits"><img src="https://img.shields.io/github/last-commit/jaid/textblatt.com?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/textblatt.com/issues"><img src="https://img.shields.io/github/issues/jaid/textblatt.com?style=flat-square&logo=github" alt="Issues"/></a>  
 
 **Simple webapp with a text input and live character count.**
 
 
 
 
-##### View online at [letter.bar](https://letter.bar).
+##### View online at [textblatt.com](https://textblatt.com).
+
+
+
+
+
+
+
 
 
 
@@ -29,16 +36,25 @@
 
 ## Development
 
+<details>
+<summary><b>Development hints for maintaining and improving Textblatt</b></summary>
+
 
 
 Setting up:
 ```bash
-git clone git@github.com:jaid/letter.bar.git
-cd letter.bar
+git clone git@github.com:jaid/textblatt.com.git
+cd textblatt.com
 npm install
 ```
 
+</details>
 
 ## License
-[MIT License](https://raw.githubusercontent.com/jaid/letter.bar/master/license.txt)  
-Copyright © 2020, Jaid \<jaid.jsx@gmail.com> (https://github.com/jaid)
+[MIT License](https://raw.githubusercontent.com/jaid/textblatt.com/master/license.txt)  
+Copyright © 2021, Jaid \<jaid.jsx@gmail.com> (https://github.com/jaid)
+
+<!---
+Readme generated with tldw v7.1.0
+https://github.com/Jaid/tldw
+-->
