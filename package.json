@@ -7,7 +7,6 @@
   "version": "1.5.1",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@tippy.js/react": "^3.1.1",
     "classnames": "^2.3.1",
     "debug": "^4.3.1",
     "ensure-array": "^1.0.0",
