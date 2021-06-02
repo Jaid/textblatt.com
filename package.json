@@ -33,7 +33,6 @@
     "caniuse-lite": "^1.0.30001233",
     "eslint": "^7.27.0",
     "eslint-config-jaid-react": "^1.54.0",
-    "jest": "^27.0.3",
     "react-hot-loader": "^4.13.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
