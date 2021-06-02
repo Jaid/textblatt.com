@@ -27,7 +27,7 @@ export default class AboutPage extends React.Component {
   }
 
   render() {
-    const content = <span>{_PKG_TITLE} {_PKG_VERSION}</span>
+    const content = <span>{process.env.REPLACE_PKG_TITLE} {process.env.REPLACE_PKG_VERSION}</span>
     return <DocumentTitle title="About - Textblatt">
       <main className={css.container}>
         {content}
