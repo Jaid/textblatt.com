@@ -28,7 +28,7 @@ export default class AboutPage extends React.Component {
 
   render() {
     const content = <span>{_PKG_TITLE} {_PKG_VERSION}</span>
-    return <DocumentTitle title="About - Letter Bar">
+    return <DocumentTitle title="About - Textblatt">
       <main className={css.container}>
         {content}
       </main>
