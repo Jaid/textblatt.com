@@ -54,10 +54,10 @@
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaid/letter.bar"
+    "url": "https://github.com/jaid/textblatt.com"
   },
   "private": true,
-  "homepage": "https://letter.bar",
+  "homepage": "https://textblatt.com",
   "keywords": [
     "boilerplate",
     "page",
