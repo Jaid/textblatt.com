@@ -19,7 +19,6 @@
     "react-ga": "^3.3.0",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "react-router-scroll-top": "^0.2.1",
     "redux": "^4.1.0",
     "redux-action": "^1.2.2",
     "redux-thunk": "^2.3.0",
@@ -46,7 +45,9 @@
     "build:prod": "NODE_ENV=production webpack",
     "build:dev": "NODE_ENV=development webpack",
     "release": "npm run clean && npm test && git tag v$npm_package_version && git push --tags && opn https://github.com/$npm_package_author_name/$(basename $PWD)/releases/new?tag=v$npm_package_version",
-    "prepareActionJest": "npm run build:prod"
+    "prepareActionJest": "npm run build:prod",
+    "linkWebpackConfigJaidRepo": "currentDirectory=$PWD && cd ../webpack-config-jaid && npm run build:dev && cd $currentDirectory && rimraf node_modules/webpack-config-jaid && ln --symbolic ../webpack-config-jaid/dist/package/development node_modules/webpack-config-jaid",
+    "linkWebpackConfigJaidNpm": "rimraf node_modules/webpack-config-jaid && npm install --no-package-lock --no-save webpack-config-jaid"
   },
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
