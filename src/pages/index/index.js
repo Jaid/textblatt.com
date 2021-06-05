@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import Bar from "components/Bar"
-import Form from "components/Form"
+import Bar from "src/components/Bar"
+import Form from "src/components/Form"
 
 import css from "./style.scss"
 

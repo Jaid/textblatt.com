@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import {Field, reduxForm} from "redux-form"
 
-import TextBox from "components/TextBox"
+import TextBox from "src/components/TextBox"
 
 import css from "./style.scss"
 
