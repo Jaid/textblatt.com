@@ -20,11 +20,11 @@ export default class App extends React.Component {
 
   static getRoutes() {
     const routeBlocks = []
-    Object.entries(routes).forEach(([id, paths], index) => {
-      ensureArray(paths).forEach((path, pathIndex) => {
+    for (const [index, [id, paths]] of Object.entries(routes).entries()) {
+      for (const [pathIndex, path] of ensureArray(paths).entries()) {
         routeBlocks.push(<Route key={`${index}-${pathIndex}`} component={require(`../../pages/${id}`).default} path={path} exact/>)
-      })
-    })
+      }
+    }
     return routeBlocks
   }
 
