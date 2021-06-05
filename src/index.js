@@ -5,7 +5,7 @@ import {Provider} from "react-redux"
 import App from "src/components/App"
 import store from "src/redux/productionStore"
 
-require("offline-plugin/runtime").install()
+require("@lcdp/offline-plugin/runtime").install()
 
 const rootNode = document.querySelector("body > div")
 
