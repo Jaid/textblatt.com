@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import {Field, reduxForm} from "redux-form"
+import {Field, Form} from "react-final-form"
 
 import TextBox from "src/components/TextBox"
 
