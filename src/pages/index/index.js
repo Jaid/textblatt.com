@@ -2,6 +2,7 @@ import React from "react"
 
 import Bar from "src/components/Bar"
 import TextBox from "src/components/TextBox"
+import InputContext, {InputProvider} from "src/contexts/InputContext"
 
 import css from "./style.scss"
 
@@ -10,8 +11,10 @@ import css from "./style.scss"
  */
 const IndexPage = () => {
   return <main className={css.container}>
-    <TextBox/>
-    <Bar/>
+    <InputProvider>
+      <TextBox/>
+      <Bar/>
+    </InputProvider>
   </main>
 }
 

@@ -1,10 +1,12 @@
-import React, {useRef} from "react"
+import React, {useContext, useRef} from "react"
+
+import InputContext from "src/contexts/InputContext"
 
 import css from "./style.scss"
 
 /**
   * @typedef {Object} Props
-  * @prop {*} className
+  * @prop {*} [className]
   * @prop {Object} input
   */
 
@@ -13,11 +15,11 @@ import css from "./style.scss"
  * @return {import("react").ReactElement}
  */
 const TextBox = props => {
-  const ref = useRef()
-  const handleChange = () => {
-
+  const context = useContext(InputContext)
+  const handleChange = event => {
+    context.setText(event.target.value)
   }
-  return <textarea ref={ref} className={css.container} onChange={handleChange}/>
+  return <textarea className={css.container} value={context.text} onChange={handleChange}/>
 }
 
 export default TextBox

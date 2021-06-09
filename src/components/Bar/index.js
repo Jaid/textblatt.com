@@ -1,6 +1,7 @@
 import classnames from "classnames"
 import React from "react"
-import zahl from "zahl"
+
+import CharactersWidget from "src/components/CharactersWidget"
 
 import css from "./style.scss"
 
@@ -9,9 +10,8 @@ import css from "./style.scss"
  * @return {import("react").ReactElement}
  */
 const Bar = props => {
-  const countString = zahl(props.count, "character")
   return <div className={classnames(css.container, props.className)}>
-    {countString}
+    <CharactersWidget/>
   </div>
 }
 
