@@ -2,7 +2,7 @@
   "title": "Textblatt",
   "name": "textblatt.com",
   "domain": "textblatt.com",
-  "description": "Simple webapp with a text input and live character count.",
+  "description": "Simple webapp with a big input box and some optional text analytics.",
   "webpackConfigJaid": "webapp",
   "version": "1.5.1",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
@@ -58,16 +58,17 @@
   "private": true,
   "homepage": "https://textblatt.com",
   "keywords": [
-    "boilerplate",
-    "page",
-    "project-template",
     "react",
-    "react-dom",
-    "single-page-app",
-    "spa",
     "template",
+    "website",
+    "boilerplate",
+    "spa",
+    "react-dom",
     "tool",
+    "single-page-app",
+    "project-template",
     "webapp",
-    "website"
+    "page",
+    "textblatt"
   ]
 }
