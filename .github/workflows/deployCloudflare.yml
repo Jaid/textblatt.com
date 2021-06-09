@@ -1,4 +1,4 @@
-name: Publish to Surge
+name: Publish to Cloudflare
 on:
   push:
     tags: ["v[0-9]+.[0-9]+.[0-9]+"]
@@ -7,15 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: actions/checkout
-        uses: actions/checkout@v2.1.0
+        uses: actions/checkout@v2.3.4
       - name: actions/setup-node
-        uses: actions/setup-node@v1.4.1
+        uses: actions/setup-node@v2.1.5
         with:
-          node-version: "13.13.0"
+          node-version: "16.1.0"
       - name: npm install
         uses: jaid/action-npm-install@master
-      - name: Install globals
-        run: npm install --global surge package-field-cli
       - name: Build
         run: npm run build:prod
       - name: Deploy
