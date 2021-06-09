@@ -8,18 +8,9 @@ jobs:
     steps:
       - name: actions/checkout
         uses: actions/checkout@v2.3.4
-      - name: actions/setup-node
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: "16.1.0"
-      - name: npm install
-        uses: jaid/action-npm-install@master
-      - name: Build
-        run: npm run build:prod
       - name: Deploy
         uses: s0/git-publish-subdir-action@v2.5.0
         env:
           REPO: self
           BRANCH: pages
-          FOLDER: dist/package/production
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
