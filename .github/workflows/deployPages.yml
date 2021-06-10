@@ -8,8 +8,12 @@ jobs:
     steps:
       - name: actions/checkout
         uses: actions/checkout@v2.3.4
-      - name: Copy to branch “pages”
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: pages
+      - name: Move content to subdirectory # https://github.com/s0/git-publish-subdir-action/issues/31
+        run: mkdir pages && shopt -s extglob dotglob && mv !(pages) pages && shopt -u dotglob
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@v2.5.0
+        env:
+          REPO: self
+          BRANCH: pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FOLDER: pages
