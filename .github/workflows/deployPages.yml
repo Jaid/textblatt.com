@@ -15,5 +15,5 @@ jobs:
         env:
           REPO: self
           BRANCH: pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FOLDER: pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
