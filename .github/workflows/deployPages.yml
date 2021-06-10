@@ -9,8 +9,7 @@ jobs:
       - name: actions/checkout
         uses: actions/checkout@v2.3.4
       - name: Move content to subdirectory # https://github.com/s0/git-publish-subdir-action/issues/31
-        run: mkdir pages && shopt -s extglob dotglob && mv !(pages) pages && shopt -u dotglob
-        shell: bash
+        run: echo $CWD
       - name: Deploy
         uses: s0/git-publish-subdir-action@v2.5.0
         env:
