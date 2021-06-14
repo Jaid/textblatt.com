@@ -1,6 +1,5 @@
-import React, {useContext, useRef} from "react"
-
-import InputContext from "src/contexts/InputContext"
+import React, {useRef} from "react"
+import {useDispatch, useSelector} from "react-redux"
 
 import css from "./style.scss"
 
@@ -15,11 +14,15 @@ import css from "./style.scss"
  * @return {import("react").ReactElement}
  */
 const TextBox = props => {
-  const context = useContext(InputContext)
+  const dispatch = useDispatch()
+  const text = useSelector(state => state.text.value)
   const handleChange = event => {
-    context.setText(event.target.value)
+    dispatch({
+      type: "text/set",
+      payload: event.target.value,
+    })
   }
-  return <textarea className={css.container} value={context.text} onChange={handleChange}/>
+  return <textarea className={css.container} value={text} onChange={handleChange}/>
 }
 
 export default TextBox

@@ -5,7 +5,6 @@ import App from "src/components/App"
 
 require("@lcdp/offline-plugin/runtime").install()
 
-document.body.innerHTML = "<div/>"
-const rootNode = document.querySelector("body > div")
-
+const rootNode = document.createElement("div")
+document.body.append(rootNode)
 ReactDom.render(<App/>, rootNode)
