@@ -6,7 +6,6 @@ import CharactersWidget from "src/components/CharactersWidget"
 import css from "./style.scss"
 
 /**
- * @param {Props} props
  * @return {import("react").ReactElement}
  */
 const Bar = props => {

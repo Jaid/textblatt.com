@@ -5,15 +5,12 @@ import css from "./style.scss"
 
 /**
   * @typedef {Object} Props
-  * @prop {*} [className]
-  * @prop {Object} input
   */
 
 /**
- * @param {Props} props
  * @return {import("react").ReactElement}
  */
-const TextBox = props => {
+const TextBox = () => {
   const inputRef = useRef()
   useEffect(() => {
     inputRef.current.focus()

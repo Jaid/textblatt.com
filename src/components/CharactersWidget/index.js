@@ -6,7 +6,6 @@ import zahl from "zahl"
 import css from "./style.scss"
 
 /**
- * @param {Props} props
  * @return {import("react").ReactElement}
  */
 const CharactersWidget = props => {
