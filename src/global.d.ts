@@ -1,0 +1,1 @@
+import "webpack-config-jaid/assets";
