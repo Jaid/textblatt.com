@@ -3,6 +3,5 @@ import ReactDom from "react-dom"
 
 import HotApp from "src/components/HotApp"
 
-const rootNode = document.createElement("div")
-document.body.append(rootNode)
+const rootNode = document.querySelector("body>div")
 ReactDom.render(<HotApp/>, rootNode)
