@@ -29,7 +29,6 @@
     "caniuse-lite": "^1.0.30001239",
     "eslint": "^7.29.0",
     "eslint-config-jaid-react": "^1.55.0",
-    "react-hot-loader": "^4.13.0",
     "redux-logger": "^3.0.6",
     "rimraf": "^3.0.2",
     "tsconfig-jaid": "^2.1.1",
