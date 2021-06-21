@@ -32,7 +32,7 @@
     "redux-logger": "^3.0.6",
     "rimraf": "^3.0.2",
     "tsconfig-jaid": "^2.1.1",
-    "webpack-config-jaid": "^14.2.0",
+    "webpack-config-jaid": "^14.2.1",
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
