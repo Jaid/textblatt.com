@@ -1,1 +1,1 @@
-import "webpack-config-jaid/assets";
+import "webpack-config-jaid/assets"
