@@ -6,4 +6,4 @@ import App from "src/components/App"
 require("@lcdp/offline-plugin/runtime").install()
 
 const rootNode = document.querySelector("body>div")
-// ReactDom.render(<App/>, rootNode)
+ReactDom.render(<App/>, rootNode)
