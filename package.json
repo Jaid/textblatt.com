@@ -23,7 +23,7 @@
     "zahl": "^2.0.6"
   },
   "devDependencies": {
-    "babel-jest": "^27.0.2",
+    "babel-jest": "^27.0.5",
     "babel-preset-jaid": "^13.1.0",
     "browserslist-config-jaid-web": "^2.3.1",
     "caniuse-lite": "^1.0.30001239",
